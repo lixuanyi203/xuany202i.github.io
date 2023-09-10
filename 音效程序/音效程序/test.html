@@ -1,0 +1,64 @@
+<!DOCTYPE html>        
+<html>              
+<head>          
+
+
+ <script type="text/javascript">
+ function playsound(audioID) {
+var  x=document.getElementById(audioID);
+x.play();
+}
+</script>
+
+
+                 
+<title>这是我的第一个网页</title>            
+</head>           
+<body>          
+  <h5>我最近有点感冒,胃口不太好</h5>     
+  <a href="http://www.baidu.com">点我进去百度</a>
+  <br>
+  <a href="http://www.taobao.com">  点击访问陶宝</a>
+  <br>
+ 
+
+<audio id="lixuanyi" controls><source src="baojjin.mp3" type="audio/mp3"></audio> 
+<audio id="shouji" controls> <source src="dingdong(2).wav"type="audio/wav"></audio> 
+<audio id="gongjiaoche" controls> <source src="汽车喇叭声.wav"type="audio/wav"></audio>
+<audio id ="tbsg" controls> <source src="玻璃破碎声(1).wav"type="audio/wav"></audio>
+<audio id="zhadan"controls> <source src ="peng.wav" type="audio/wav"> </audio>
+<audio id="dog"controls> <source src ="高加索犬的狂叫声.mp3" type="audio/mp3"> </audio>
+<audio id ="bgongji"controls> <source src="公鸡打鸣交响曲.mp3"  type ="audio/mp3"></audio>
+<audio id="miao"controls> <source src="母猫唤小猫.mp3"type="audio/mp3"></audio>
+<table border="1">
+	<tr>
+		<td><img  src="car.jpg"height="140"onclick="playsound('gongjiaoche');"> <br> </td>
+		<td> <img  src="bianpao.jpg"height="120" onclick="playsound('lixuanyi');">  </td>
+		<td> <img  src="doorbell.jpg"onclick ="playsound('tbsg');" ></td> 
+		<td>m194</td>
+		<td>q</td>
+	</tr>	
+	<tr>
+		<td><img  src="狗在叫.JPG"height="140"onclick="playsound('dog');"></td>
+		<td><img src="公鸡叫.jpg" height="137"onclick="playsound('bgongji');"> </td>
+		<td>9</td>
+		<td> <img  src="urgent.jpg" height="140" onclick="playsound('shouji')"> </td>
+		<td> <img src="猫.jpg" height="137" onclick="playsound ('miao');" ></td>
+	</tr>
+	<tr >
+		<td><img src ="boom.JPG" height="140"onclick= "playsound('zhadan');">  </td>
+		<td>4</td>
+		<td> 10</td>
+		<td>40 </td>
+		<td> 6</td>
+	</tr>
+	<tr>
+		<td > 61路 </td> 
+		<td> 美国</td>
+		<td> 中国</td>
+		<td>个iangzhp</td>
+		<td>蛋糕</td>
+	</tr>
+</table>
+</body>                 
+</html>
